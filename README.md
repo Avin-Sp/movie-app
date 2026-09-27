@@ -4,6 +4,9 @@ A modern and responsive movie discovery web application built with React.
 
 MovieHub allows users to explore movies, search through the collection, filter movies by genre, view movie details, and save their favorite movies.
 
+## 🌐 Live Demo
+https://Avin-Sp.github.io/movie-app/
+
 ## ✨ Features
 
 - 🎬 Browse movies
@@ -28,21 +31,46 @@ MovieHub allows users to explore movies, search through the collection, filter m
 - Vite
 - JavaScript (ES6+)
 
+## 🧠 Concepts Practiced
+
+This project was built to practice and demonstrate:
+
+- React component architecture
+- React Hooks
+- State management with Redux Toolkit
+- Client-side routing
+- Dynamic routes
+- URL search parameters
+- Debouncing with `useEffect`
+- Effect cleanup
+- LocalStorage
+- Responsive UI development
+- Reusable components
+- Conditional rendering
+- Loading and empty states
+- Git & GitHub
+- GitHub Pages deployment
+
+
 Getting Started
 1. Clone the repository
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Avin-Sp/movie-app.git
 2. Navigate to the project directory
 cd movie-app
 3. Install dependencies
 npm install
 4. Start the development server
 npm run dev
-
 The application will be available at the local development URL provided by Vite.
 
-🌐 Live Demo
+📦 Build for Production
+npm run build
 
-Coming soon.
+To preview the production build locally:
+
+npm run preview
+
+The application will be available at the local development URL provided by Vite.
 
 
 🔮 Future Improvements
@@ -53,7 +81,7 @@ Store movies and favorites in a database
 Add pagination
 Add advanced movie filtering
 Add user profiles
-👩‍💻 Author
 
+👩‍💻 Author
 Avin Sp
 
